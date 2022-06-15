@@ -1,0 +1,80 @@
+* {
+box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@300;400&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffbdb7;
+    font-size: 80%;
+    background-image: url(../imagenes/fondovectores-06.png);
+    background-repeat: no-repeat;
+}
+header{
+width: 100%;
+display: flex;
+}
+
+header p { width: 80% ;}
+
+h1 { 
+    font-family: 'Abril Fatface', cursive;
+    font-size: 14.76em;
+    font-weight: 400;
+    color: #ff5b48;
+    margin: 0;
+    /* width: 100%; */
+}
+
+/*
+div {
+    width: 60%;
+}
+*/
+
+.columnas {display: flex;}
+
+#bajada {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3.2em;
+}
+
+#parrafito {
+    font-weight: 400;
+    font-size: 1.6em;
+}
+
+#boton {
+    font-weight: 400;
+    font-size: 1.6em;
+    color: #ffbdb7;
+    background-color: black;
+    width: max-content;
+    height: max-content; /* esto lo tuve que buscar en google pq se me hacia toda la columna negra como el fondo sino */ 
+}
+
+/*
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+*/
+
+a {
+    font-weight: 300;
+    font-size: 1.6em; 
+    color: black; 
+    text-decoration: none;
+    /*
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    */
+}
+
+@media(max-width:768px){body{font-size: 80%;}}
+
+
